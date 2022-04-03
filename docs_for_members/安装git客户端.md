@@ -9,35 +9,41 @@ Git是目前世界上最先进的分布式版本控制系统，git与svn的五�
 - 分支灵活性 : 用户可以随时 创建 合并 删除分支, 多人实现不同的功能, 可以创建多个分支进行开发, 之后进行分支合并, 这种方式使开发变得快速, 简单, 安全。
 ## 2.1 下载客户端
 官方下载地址：http://git-scm.com/download/  根据你自己的系统下载对应版本
+![](images/git.png)  
+## 2.2 安装客户端  
+安装开始  
+![](images/git2.png)  
 
-## 2.2 安装客户端
+选择安装路径，千万别选带中文的路径，有时候会引起奇怪的错误。  
+![](images/git3.png)  
+  
+选择安装组件，按默认的来就好了。  
+1）图标组件(Addition icons) : 选择是否创建快速启动栏图标 或者 是否创建桌面快捷方式;  
+2）桌面浏览(Windows Explorer integration) : 浏览源码的方法, 单独的上下文浏览 只使用bash 或者 只用Git GUI工具; 高级的上下文浏览方法 使用git-cheetah plugin插件;  
+3）关联配置文件(Associate .git*) : 是否关联git配置文件, 该配置文件主要显示文本编辑器的样式;  
+4）关联shell脚本文件(Associate .sh) : 是否关联Bash命令行执行的脚本文件;  
+5）使用TrueType编码 : 在命令行中是否使用TruthType编码, 该编码是微软和苹果公司制定的通用编码;  
+![](images/git4.png)  
 
+设置开始菜单中快捷方式的目录名称，默认就好  
+![](images/git5.png)  
 
+设置环境变量 : 选择使用什么样的命令行工具, 一般情况下我们默认使用Git Bash即可, 默认选择;  
+1）Git自带 : 使用Git自带的Git Bash命令行工具;  
+2）系统自带CMD : 使用Windows系统的命令行工具;  
+3） 二者都有 : 上面二者同时配置, 但是注意, 这样会将windows中的find.exe 和 sort.exe工具覆盖, 如果不懂这些尽量不要选择;  
+![](images/git6.png)  
 
+选择换行格式 ，依然是默认就好。  
+1）检查出windows格式转换为unix格式 : 将windows格式的换行转为unix格式的换行在进行提交;  
+2）检查出原来格式转为unix格式 : 不管什么格式的, 一律转为unix格式的换行在进行提交;  
+3）不进行格式转换 : 不进行转换, 检查出什么, 就提交什么;  
+![](images/git7.png)  
 
-选择安装路径，千万别选带中文的路径，有时候会引起奇怪的错误。
+选择终端模拟器，依然默认就好  
+1）使用MinTTY，就是在Windows开了一个简单模拟Linux命令环境的窗口Git Bash  
+2）使用windows的系统的命令行程序cmd.exe  
+![](images/git8.png) 
 
-选择安装组件，按默认的来就好了。
-1）图标组件(Addition icons) : 选择是否创建快速启动栏图标 或者 是否创建桌面快捷方式;
-2）桌面浏览(Windows Explorer integration) : 浏览源码的方法, 单独的上下文浏览 只使用bash 或者 只用Git GUI工具; 高级的上下文浏览方法 使用git-cheetah plugin插件;
-3）关联配置文件(Associate .git*) : 是否关联git配置文件, 该配置文件主要显示文本编辑器的样式;
-4）关联shell脚本文件(Associate .sh) : 是否关联Bash命令行执行的脚本文件;
-5）使用TrueType编码 : 在命令行中是否使用TruthType编码, 该编码是微软和苹果公司制定的通用编码;
-
-设置开始菜单中快捷方式的目录名称，默认就好
-
-设置环境变量 : 选择使用什么样的命令行工具, 一般情况下我们默认使用Git Bash即可, 默认选择;
-1）Git自带 : 使用Git自带的Git Bash命令行工具;
-2）系统自带CMD : 使用Windows系统的命令行工具;
-3） 二者都有 : 上面二者同时配置, 但是注意, 这样会将windows中的find.exe 和 sort.exe工具覆盖, 如果不懂这些尽量不要选择;
-
-选择换行格式 ，依然是默认就好。
-1）检查出windows格式转换为unix格式 : 将windows格式的换行转为unix格式的换行在进行提交;
-2）检查出原来格式转为unix格式 : 不管什么格式的, 一律转为unix格式的换行在进行提交;
-3）不进行格式转换 : 不进行转换, 检查出什么, 就提交什么;
-
-选择终端模拟器，依然默认就好
-1）使用MinTTY，就是在Windows开了一个简单模拟Linux命令环境的窗口Git Bash
-2）使用windows的系统的命令行程序cmd.exe
-
-git终于安装成功咯
+git终于安装成功咯  
+![](images/git9.png)  
