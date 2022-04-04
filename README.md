@@ -7,4 +7,5 @@
 #### 2. [技术文档编写标准](docs_for_members/技术文档编写规范.md)
 
 ## 团队管理者请阅读以下文档
-#### 1. [注意事项](docs_for_owner/团队管理注意事项.md)
+#### 1. [说明手册](https://docs.github.com/en/organizations)
+#### 2. [注意事项](docs_for_owner/团队管理注意事项.md)
